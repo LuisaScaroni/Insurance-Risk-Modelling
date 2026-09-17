@@ -4,12 +4,15 @@
 
 
 ## Methodology & Results:
-
+* **Frequency Modeling:** Trained and compared a Negative Binomial GLM and a GBM with Poisson loss and exposure offsets, with the Negative Binomial providing the best fit for frequency
+* **Severity Modeling:** using Gamma GLM and GBM predicting $log(Severity)$ to stufy heavy tailed, right skewed severity
+* **Business Insight:** strong inverse correlation between frequency and severity, young adults claim infrequently but generate high per event cost
+* **Portfolio Validatiion:** time-based split for actual vs expected loss analysis
 
 ## Tools:
 * **Language:** R
-* **Libraries:** `car`, `moments`, `cluster`, `robustbase`, `factoextra`, `caret`, `MASS`
-* **Core competencies:** Data Wrangling, Box-Cox Transformation, K-medoids Clustering, Hierarchical Clustering, Robust PCA, Mahalanobis Distance, Multiple Linear Regression, AIC Model Selection, Residual Diagnostic
+* **Libraries:** `tidyverse`, `gbm`, `corrplot`, `AER`, `sf`, `mapSpain`, `MASS`, `skimr`
+* **Core competencies:** GLM, log-link function, testing for overdispersion, GBM, 3 fold croos validation, geospatial mapping, frequency/severity modeling, risk profiling
 ## Repository Contents:
 * `Insurance Risk Modeling.Rmd`: R markdown code 
 * `Insurance Risk Modelling.pdf`: report with analysis of the results and choosen methodologies 

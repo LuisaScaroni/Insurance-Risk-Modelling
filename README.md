@@ -1,2 +1,5 @@
-# Insurance-Risk-Modelling
-Predictive risk modeling and geospatial analysis for a health insurance portfolio using R
+# Insurance-Risk-Modelling: Data Science for Non-Life Insurance Project
+
+## Project Overview:
+
+

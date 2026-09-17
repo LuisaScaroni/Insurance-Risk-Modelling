@@ -1,7 +1,7 @@
 # Insurance-Risk-Modelling: Data Science for Non-Life Insurance Project
 
 ## Project Overview:
-
+This repository contains a collaborative group project developed for the "Data Science for Non-Life Insurance" course. The idea is to predict claim frequency and claim severity to calculate Expected Premium for a health insurance portfolio comparing 228,000 policies
 
 ## Methodology & Results:
 * **Frequency Modeling:** Trained and compared a Negative Binomial GLM and a GBM with Poisson loss and exposure offsets, with the Negative Binomial providing the best fit for frequency
